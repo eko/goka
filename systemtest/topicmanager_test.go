@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/internal/test"
+	"github.com/eko/goka"
+	"github.com/eko/goka/internal/test"
 )
 
 var (

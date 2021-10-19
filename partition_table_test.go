@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
+	"github.com/eko/goka/internal/test"
+	"github.com/eko/goka/storage"
 	"github.com/golang/mock/gomock"
-	"github.com/lovoo/goka/internal/test"
-	"github.com/lovoo/goka/storage"
 )
 
 func defaultPT(

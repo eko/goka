@@ -4,9 +4,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/lovoo/goka/codec"
-	"github.com/lovoo/goka/internal/test"
-	"github.com/lovoo/goka/storage"
+	"github.com/eko/goka/codec"
+	"github.com/eko/goka/internal/test"
+	"github.com/eko/goka/storage"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

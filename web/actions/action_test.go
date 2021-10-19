@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lovoo/goka/internal/test"
+	"github.com/eko/goka/internal/test"
 )
 
 var (

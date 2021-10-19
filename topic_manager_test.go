@@ -8,7 +8,7 @@ import (
 	"github.com/Shopify/sarama"
 	"github.com/golang/mock/gomock"
 
-	"github.com/lovoo/goka/internal/test"
+	"github.com/eko/goka/internal/test"
 )
 
 var (

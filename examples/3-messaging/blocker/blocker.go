@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/lovoo/goka"
+	"github.com/eko/goka"
 )
 
 var (

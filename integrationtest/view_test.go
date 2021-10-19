@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/codec"
-	"github.com/lovoo/goka/internal/test"
-	"github.com/lovoo/goka/tester"
+	"github.com/eko/goka"
+	"github.com/eko/goka/codec"
+	"github.com/eko/goka/internal/test"
+	"github.com/eko/goka/tester"
 )
 
 func TestView(t *testing.T) {

@@ -15,14 +15,14 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
+	"github.com/eko/goka"
+	"github.com/eko/goka/codec"
+	"github.com/eko/goka/multierr"
+	"github.com/eko/goka/web/actions"
+	"github.com/eko/goka/web/index"
+	"github.com/eko/goka/web/monitor"
+	"github.com/eko/goka/web/query"
 	"github.com/gorilla/mux"
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/codec"
-	"github.com/lovoo/goka/multierr"
-	"github.com/lovoo/goka/web/actions"
-	"github.com/lovoo/goka/web/index"
-	"github.com/lovoo/goka/web/monitor"
-	"github.com/lovoo/goka/web/query"
 )
 
 var (

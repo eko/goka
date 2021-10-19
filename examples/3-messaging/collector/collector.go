@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/examples/3-messaging"
+	"github.com/eko/goka"
+	messaging "github.com/eko/goka/examples/3-messaging"
 )
 
 const maxMessages = 5

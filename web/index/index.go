@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"sync"
 
+	"github.com/eko/goka"
+	"github.com/eko/goka/web/templates"
 	"github.com/gorilla/mux"
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/web/templates"
 )
 
 var baseTemplates = append(templates.BaseTemplates) // "web/templates/monitor/menu.go.html"

@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
+	"github.com/eko/goka/multierr"
+	"github.com/eko/goka/storage"
 	"github.com/hashicorp/go-multierror"
-	"github.com/lovoo/goka/multierr"
-	"github.com/lovoo/goka/storage"
 )
 
 const (

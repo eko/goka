@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/eko/goka/codec"
+	"github.com/eko/goka/internal/test"
 	"github.com/golang/mock/gomock"
-	"github.com/lovoo/goka/codec"
-	"github.com/lovoo/goka/internal/test"
 )
 
 var (

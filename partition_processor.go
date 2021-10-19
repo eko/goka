@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
+	"github.com/eko/goka/multierr"
 	"github.com/hashicorp/go-multierror"
-	"github.com/lovoo/goka/multierr"
 )
 
 const (

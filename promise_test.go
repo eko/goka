@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/lovoo/goka/internal/test"
+	"github.com/eko/goka/internal/test"
 )
 
 func TestPromise_thenBeforeFinish(t *testing.T) {

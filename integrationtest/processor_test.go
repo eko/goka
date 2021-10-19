@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/codec"
-	"github.com/lovoo/goka/internal/test"
-	"github.com/lovoo/goka/tester"
+	"github.com/eko/goka"
+	"github.com/eko/goka/codec"
+	"github.com/eko/goka/internal/test"
+	"github.com/eko/goka/tester"
 )
 
 // codec that fails on decode
@@ -233,11 +233,11 @@ import (
 	"time"
 
 	"github.com/facebookgo/ensure"
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/codec"
-	"github.com/lovoo/goka/mock"
-	"github.com/lovoo/goka/storage"
-	"github.com/lovoo/goka/tester"
+	"github.com/eko/goka"
+	"github.com/eko/goka/codec"
+	"github.com/eko/goka/mock"
+	"github.com/eko/goka/storage"
+	"github.com/eko/goka/tester"
 )
 
 func doTimed(t *testing.T, do func()) error {

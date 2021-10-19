@@ -12,8 +12,8 @@ import (
 	"github.com/Shopify/sarama"
 	"github.com/golang/mock/gomock"
 
-	"github.com/lovoo/goka/codec"
-	"github.com/lovoo/goka/internal/test"
+	"github.com/eko/goka/codec"
+	"github.com/eko/goka/internal/test"
 )
 
 func newEmitter(err error, done func(err error)) emitter {

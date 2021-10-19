@@ -1,4 +1,4 @@
-module github.com/lovoo/goka
+module github.com/eko/goka
 
 go 1.13
 

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/lovoo/goka/storage"
+	"github.com/eko/goka/storage"
 
 	redis "gopkg.in/redis.v5"
 )

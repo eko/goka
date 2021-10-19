@@ -10,11 +10,11 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	"github.com/lovoo/goka"
-	"github.com/lovoo/goka/codec"
-	"github.com/lovoo/goka/internal/test"
-	"github.com/lovoo/goka/multierr"
-	"github.com/lovoo/goka/storage"
+	"github.com/eko/goka"
+	"github.com/eko/goka/codec"
+	"github.com/eko/goka/internal/test"
+	"github.com/eko/goka/multierr"
+	"github.com/eko/goka/storage"
 )
 
 // Tests the processor option WithHotStandby. This requires a (local) running kafka cluster.
@@ -501,7 +501,7 @@ func TestProcessorSlowStuck(t *testing.T) {
 // * Create a processor that consumes+accumulates this one value into its state. The final state obviously is 10.
 // * restart this processor a couple of times and check whether it stays 10.
 //
-// Running it with go test -v github.com/lovoo/goka/systemtest -run TestMessageCommit -args -systemtest should yield:
+// Running it with go test -v github.com/eko/goka/systemtest -run TestMessageCommit -args -systemtest should yield:
 // === RUN   TestMessageCommit
 // 2021/07/26 10:49:54 emitting 10 messages
 // 2021/07/26 10:49:55 starting processor
@@ -522,7 +522,7 @@ func TestProcessorSlowStuck(t *testing.T) {
 // 2021/07/26 10:50:26 received 10 messages
 // --- PASS: TestMessageCommit (41.70s)
 // PASS
-// ok  	github.com/lovoo/goka/systemtest	41.716s
+// ok  	github.com/eko/goka/systemtest	41.716s
 func TestMessageCommit(t *testing.T) {
 
 	var (
